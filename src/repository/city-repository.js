@@ -1,7 +1,7 @@
 const { City } = require('../models/index');
 
 class CityRepository {
-    async createCity( { name }) {
+    async createCity( { name }) { // here we are destructuring the object createCity expect a object i.e. {name: "Prayagraj"}
         try {
             const city = await City.create({name});
             return city;
