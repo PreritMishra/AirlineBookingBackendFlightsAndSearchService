@@ -10,6 +10,7 @@ class CityService {
             return city;
         } catch (error) {
             console.log("Something went wrong in service layer");
+            throw {error};
         }
     }
 
@@ -19,6 +20,7 @@ class CityService {
             return response;
         } catch (error) {
             console.log("Something went wrong in service layer");
+            throw {error};
         }
     }
 
@@ -28,6 +30,7 @@ class CityService {
             return city;
         } catch (error) {
             console.log("Something went wrong in service layer");
+            throw {error};
         }
     }
 
@@ -37,6 +40,7 @@ class CityService {
             return city;
         } catch (error) {
             console.log("Something went wrong in service layer");
+            throw {error};
         }
     }
 }
