@@ -43,9 +43,9 @@ and then execute
     Relationship -> City has many airports and Airport belongs to a city(one to many)
 
 ```
-npx sequelize seed:generate --name add-airplanes
+- npx sequelize seed:generate --name add-airplanes
 
-npx sequelize model:generate --name Airport --attributes name:String,address:String,cityId:integer
+- npx sequelize model:generate --name Airport --attributes name:String,address:String,cityId:integer
 
-npx sequelize db:seed:all
+- npx sequelize db:seed:all
 ```
